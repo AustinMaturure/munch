@@ -30,6 +30,10 @@
   
   font-size: 12rem;
 }
+
+.logo-header:hover{
+  text-shadow: 5px 5px 10px orange;
+}
 .tag-line{
   display: flex;
   gap: 1rem;
@@ -40,7 +44,7 @@
 .btn-menu{
   padding: 6px;
   max-height: 50%;
-  font-family: 'stardom';
+  font-family: 'rawon';
   font-weight: 900;
   
 }

@@ -1,0 +1,51 @@
+.food-category{
+    font-family: 'paquito', serif;
+    background-color: #252525;
+    color:white ;
+ 
+}
+
+.cat-title{
+    font-size: 9rem;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.cat-menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.cat-img-cnt{
+    height: 100%;
+    width: 50%;
+   justify-content: right;
+   
+}
+
+.cat-image{
+    max-height: 100%;
+    max-width: 100%; 
+    border-radius: 22px;
+   
+}
+
+.menu-items{
+    border-radius: 22px;
+    max-width: 100%; 
+ background-color:#1c1c1c;
+ position: absolute;
+ left :40%
+}
+
+.menu-item{
+    
+   
+
+    color:  white;
+  
+}

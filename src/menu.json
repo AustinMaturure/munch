@@ -1,0 +1,60 @@
+{
+       "menu": {
+          "pastas": [
+            {
+              "name": "Spaghetti Carbonara",
+              "description": "Spaghetti pasta tossed with creamy egg sauce, crispy bacon, and Parmesan cheese",
+              "price": 12.99
+            },
+            {
+              "name": "Fettuccine Alfredo",
+              "description": "Fettuccine pasta served with creamy Alfredo sauce and Parmesan cheese",
+              "price": 11.99
+            },
+            {
+              "name": "Penne Arrabbiata",
+              "description": "Penne pasta in spicy tomato sauce with garlic, chili flakes, and parsley",
+              "price": 10.99
+            }
+          ],
+          "burgers": [
+            {
+              "name": "Cheeseburger",
+              "description": "Juicy beef patty topped with melted cheddar cheese, lettuce, tomato, onion, and pickles on a sesame seed bun",
+              "price": 8.99
+            },
+            {
+              "name": "Vegetarian Burger",
+              "description": "Grilled veggie patty topped with lettuce, tomato, avocado, and chipotle mayo on a whole wheat bun",
+              "price": 9.99
+            }
+          ],
+          "seafood": [
+            {
+              "name": "Seafood Platter",
+              "description": "Assortment of fresh seafood including shrimp, calamari, and fish served with lemon wedges and cocktail sauce",
+              "price": 19.99
+            },
+            {
+              "name": "Grilled Salmon",
+              "description": "Fresh Atlantic salmon fillet grilled to perfection and served with lemon garlic butter sauce",
+              "price": 16.99
+            }
+          ],
+          "milkshakes": [
+            {
+              "name": "Mojito",
+              "description": "Refreshing cocktail made with rum, fresh mint, lime juice, sugar, and soda water",
+              "price": 7.99
+            },
+            {
+              "name": "Mango Lassi",
+              "description": "Creamy yogurt-based drink blended with ripe mango and a hint of cardamom",
+              "price": 5.99
+            }
+          ]
+        }
+     
+      
+
+}
