@@ -2,6 +2,8 @@
     font-family: 'paquito', serif;
     background-color: #252525;
     color:white ;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
  
 }
 
@@ -11,6 +13,10 @@
     padding: 0px;
 
 
+}
+
+.item-description, .item-price{
+    font-family: 'rowan', serif;
 }
 
 .cat-menu{
@@ -24,6 +30,8 @@
     height: 100%;
     width: 50%;
    justify-content: right;
+   align-self: center;
+   margin-left: 8rem;
    
 }
 
@@ -31,21 +39,86 @@
     max-height: 100%;
     max-width: 100%; 
     border-radius: 22px;
+
    
 }
 
 .menu-items{
     border-radius: 22px;
     max-width: 100%; 
- background-color:#1c1c1c;
+ background-color:#f1f1f1;
+ color: #252525;
+
+ max-width: 34rem;
  position: absolute;
- left :40%
+ box-shadow: 1px 1px 20px #c1c1c1;
+ left :50%
 }
 
-.menu-item{
+#pastas-category, #seafood-category, #milkshakes-category{
+    background-color: #f1f1f1;
+    color: #252525;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
     
-   
+}
 
-    color:  white;
-  
+#milkshakes-category .cat-title{
+    text-shadow: 2px 2px #6D3D14;
+}
+
+#milkshakes-category .cat-image{
+    box-shadow: -2px 2px #331d09;
+}
+
+#pastas-category .cat-title{
+    text-shadow: 2px 2px #DB2955;  
+}
+
+#seafood-category .cat-title{
+    text-shadow: 2px 2px #BCD3F2;
+}
+
+#seafood-category .cat-image{
+    box-shadow: -2px 2px #BCD3F2;
+}
+
+#burgers-category .cat-title{
+    text-shadow: 2px 2px white;
+}
+
+#burgers-category .cat-image{
+    box-shadow: -2px 2px white;
+}
+
+#pizza-category .cat-title{
+    text-shadow: 2px 2px #BCD3F2;
+} 
+
+
+
+.menu{
+   position: absolute;
+    top: 97%; 
+    z-index: 2;
+    background-color: #252525;
+}
+
+
+
+
+
+
+#seafood-category .menu-items, #pastas-category .menu-items,  #milkshakes-category .menu-items{
+    background-color: #252525;
+    box-shadow: 1px 1px 20px #1c1c1c;
+   
+}
+
+#seafood-category .menu-item, #pastas-category .menu-item,  #milkshakes-category .menu-item{
+    color: #f1f1f1;
+} 
+
+.menu-item{
+    color: #252525;
 }

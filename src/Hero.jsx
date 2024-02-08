@@ -7,7 +7,7 @@ function Hero() {
 
   return (
     <>
-     <section className="hero" style={{backgroundImage:`url(${burgerBackground})`}}>
+     <section className="hero" id="#home"style={{backgroundImage:`url(${burgerBackground})`}}>
       <div className="hero-text">
          <h1 className='logo-header'>MUNCH</h1>
          <div className="tag-line"><h2>restuarant - est. 2014</h2> <button className='btn-menu'>View Our Menu</button></div>

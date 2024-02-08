@@ -40,6 +40,17 @@
               "description": "Fresh Atlantic salmon fillet grilled to perfection and served with lemon garlic butter sauce",
               "price": 16.99
             }
+          ],"pizza": [
+            {
+              "name": "Mojito",
+              "description": "Refreshing cocktail made with rum, fresh mint, lime juice, sugar, and soda water",
+              "price": 7.99
+            },
+            {
+              "name": "Mango Lassi",
+              "description": "Creamy yogurt-based drink blended with ripe mango and a hint of cardamom",
+              "price": 5.99
+            }
           ],
           "milkshakes": [
             {
