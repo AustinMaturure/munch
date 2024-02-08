@@ -42,28 +42,206 @@
             }
           ],"pizza": [
             {
-              "name": "Mojito",
-              "description": "Refreshing cocktail made with rum, fresh mint, lime juice, sugar, and soda water",
-              "price": 7.99
+              "name": "Brazilian Chicken Strips, Pineapple & Creamy Mayo",
+              "description": "New",
+              "prices": {
+                "small": 50,
+                "large": 110
+              }
             },
             {
-              "name": "Mango Lassi",
-              "description": "Creamy yogurt-based drink blended with ripe mango and a hint of cardamom",
-              "price": 5.99
+              "name": "Mac & Cheese",
+              "description": "Mac & Cheese topped with Your choice of Sauce Classic, Buffalo or BBQ Sauce",
+              "prices": {
+                "small": 50,
+                "large": 110
+              }
+            },
+            {
+              "name": "Meat Mania",
+              "description": "Chicken Strips, Ham, Bacon, Mushroom",
+              "prices": {
+                "small": 65,
+                "large": 130
+              }
+            },
+            {
+              "name": "Jalapeno Popper",
+              "description": "Bacon & Jalapeno",
+              "prices": {
+                "small": 50,
+                "large": 110
+              }
+            },
+            {
+              "name": "Heavenly Hawaiian",
+              "description": "Ham & Pineapple",
+              "prices": {
+                "small": 45,
+                "large": 95
+              }
+            },
+            {
+              "name": "Vegetarian",
+              "description": "Mushroom, Green Pepper, Olives, Caramelized Onion",
+              "prices": {
+                "small": 50,
+                "large": 95
+              }
+            },
+            {
+              "name": "Regina",
+              "description": "Salami, Mushrooms & Olives",
+              "prices": {
+                "small": 60,
+                "large": 110
+              }
             }
+          ,
+          
+            {
+              "name": "Sweet Chili Chicken",
+              "description": "Chicken Strips and Our Famous Buffalo Wings Sauce",
+              "prices": {
+                "small": 50,
+                "large": 110
+              }
+            },
+            {
+              "name": "Chili Bite",
+              "description": "Chili, Beef Strips, Green Pepper",
+              "prices": {
+                "small": 60,
+                "large": 110
+              }
+            },
+            {
+              "name": "Classic Italian",
+              "description": "Salami, Mushroom, Green Pepper",
+              "prices": {
+                "small": 50,
+                "large": 110
+              }
+            },
+            {
+              "name": "Smokin' 67",
+              "description": "BBQ Sauce, Chicken, Mushroom, Caramelized Onion",
+              "prices": {
+                "small": 60,
+                "large": 120
+              }
+            },
+            {
+              "name": "Cheese Griller",
+              "description": "Cheese & Bacon Frankfurter & Caramelized Onions",
+              "prices": {
+                "small": 50,
+                "large": 110
+              }
+            },
+            {
+              "name": "Create Your Own",
+              "description": "Choose Any of 3 Toppings",
+              "prices": {
+                "small": 60,
+                "large": 120
+              },
+              "extra_topping_price": {
+                "small": 20,
+                "large": 30
+              },
+              "topping_options": [
+                "Avocado",
+                "Bacon",
+                "Beef Strips",
+                "Biltong",
+                "Caramelized Onions",
+                "Chili",
+                "Chicken Strips",
+                "Cheese & Bacon Frankfurter",
+                "Extra Cheese",
+                "Feta",
+                "Garlic",
+                "Green Pepper",
+                "Ham",
+                "Jalapeno",
+                "Mushroom",
+                "Olives",
+                "Pineapple",
+                "Salami"
+              ]
+            }
+          
+           
           ],
           "milkshakes": [
             {
-              "name": "Mojito",
-              "description": "Refreshing cocktail made with rum, fresh mint, lime juice, sugar, and soda water",
-              "price": 7.99
+              "name": "Bubblegum",
+              "price": 45,
+              "description": "A sweet and nostalgic milkshake flavored with bubblegum essence."
+            }, 
+            {
+              "name": "Banana",
+              "price": 45,
+              "description": "A creamy milkshake made with ripe bananas for a naturally sweet flavor."
             },
             {
-              "name": "Mango Lassi",
-              "description": "Creamy yogurt-based drink blended with ripe mango and a hint of cardamom",
-              "price": 5.99
+              "name": "Coffee",
+              "price": 45,
+              "description": "A rich and indulgent milkshake infused with the bold flavor of coffee."
+            },
+            {
+              "name": "Grape",
+              "price": 45,
+              "description": "A refreshing milkshake bursting with the juicy taste of fresh grapes."
+            },
+            {
+              "name": "Lime",
+              "price": 45,
+              "description": "A zesty and tangy milkshake made with the citrusy flavor of lime."
+            },
+            {
+              "name": "Strawberry",
+              "price": 45,
+              "description": "A classic milkshake featuring the sweet and fruity taste of strawberries."
+            },
+            {
+              "name": "Vanilla",
+              "price": 45,
+              "description": "A timeless milkshake flavored with rich and creamy vanilla extract."
+            },
+            {
+              "name": "Chocolate",
+              "price": 45,
+              "description": "A decadent milkshake crafted with velvety chocolate for chocolate lovers."
+            },
+            {
+              "name": "Chai Shake",
+              "price": 45,
+              "description": "A spiced milkshake infused with aromatic chai flavors and warm spices."
+            },
+            {
+              "name": "White Chocolate",
+              "price": 45,
+              "description": "A luxurious milkshake made with smooth and creamy white chocolate."
+            },
+            {
+              "name": "Peppermint Crisp Crunchy Milo",
+              "price": 45,
+              "description": "A refreshing milkshake with a crunchy texture, featuring peppermint crisp and Milo."
+            },
+            {
+              "name": "Turkish Delight",
+              "price": 45,
+              "description": "A unique milkshake inspired by the exotic flavors of Turkish delight."
+            },
+            {
+              "name": "Bar-One",
+              "price": 45,
+              "description": "A delightful milkshake infused with the rich flavor of Bar-One chocolate."
             }
           ]
+          
         }
      
       

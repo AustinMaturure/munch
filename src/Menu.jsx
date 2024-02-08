@@ -30,8 +30,18 @@ const Menu = () => {
           <div className='menu-item' id = {`menu-item-${item.name}`} key={item.name}>
             <h3>{item.name}</h3>
             <p className='item-description'>{item.description}</p>
-            <p className='item-price'>Price: R{item.price.toFixed(2)}</p>
+            {category === "pizza" ? (
+                <div className="price">
+                  {item.prices && item.prices.small && <p className='item-price'>Small: R{parseFloat(item.prices.small).toFixed(2)}</p>}
+                  {item.prices && item.prices.large && <p className='item-price'>Large: R{parseFloat(item.prices.large).toFixed(2)}</p>}
+                  <hr className='line' />
+                </div>
+              ) : (
+                <p className='item-price'>Price: R{parseFloat(item.price).toFixed(2)}</p>
+              )}
+            
           </div>
+          
         ))}  
         </div>
        
