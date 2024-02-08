@@ -1,46 +1,92 @@
 {
        "menu": {
-          "pastas": [
+          "pastas": [ 
             {
-              "name": "Spaghetti Carbonara",
-              "description": "Spaghetti pasta tossed with creamy egg sauce, crispy bacon, and Parmesan cheese",
-              "price": 12.99
+              "name": "Alfredo",
+              "description": "Your choice of an old time favorite with either Ham, Bacon or chicken",
+              "price": 130
             },
             {
-              "name": "Fettuccine Alfredo",
-              "description": "Fettuccine pasta served with creamy Alfredo sauce and Parmesan cheese",
-              "price": 11.99
+              "name": "Chicken",
+              "description": "Chicken strips in a creamy basil pesto sauce",
+              "price": 135
             },
             {
-              "name": "Penne Arrabbiata",
-              "description": "Penne pasta in spicy tomato sauce with garlic, chili flakes, and parsley",
-              "price": 10.99
+              "name": "Seafood",
+              "description": "Prawn Meat, Mussel Meat and Calamari in a creamy garlic wine sauce",
+              "price": 135
+            },
+            {
+              "name": "Vegetarian",
+              "description": "Juilenne Stir Fry in a Creamy White sauce or Napolitana sauce",
+              "price": 115
             }
           ],
           "burgers": [
             {
-              "name": "Cheeseburger",
-              "description": "Juicy beef patty topped with melted cheddar cheese, lettuce, tomato, onion, and pickles on a sesame seed bun",
-              "price": 8.99
+              "name": "Munch Burger",
+              "description": "A 200g Homemade Beef Patty, Topped with a Mushroom Sauce and Onion Rings, Served with Chips",
+              "price": 115
             },
             {
-              "name": "Vegetarian Burger",
-              "description": "Grilled veggie patty topped with lettuce, tomato, avocado, and chipotle mayo on a whole wheat bun",
-              "price": 9.99
+              "name": "Three Cheese Burger",
+              "description": "A 200g Homemade Beef Patty, Topped with a Mozzarella Sauce, Grated Cheddar and Fried Halloumi, Served with Chips",
+              "price": 125
+            },
+            {
+              "name": "Jalapeno Popper Burger",
+              "description": "A 200g Homemade Beef Patty, Topped with a Jalapeno Popper and Cheese Sauce, Served with Chips",
+              "price": 135
+            },
+            {
+              "name": "Pulled Pork Burger",
+              "description": "Homemade Slow Cooked Pulled Pork with a BBQ Sauce, Served with Chips",
+              "price": 105
+            },
+            {
+              "name": "Chicken Burger",
+              "description": "Fried Chicken Breast, Topped with Sweet Tangy Mayo and Served with Chips",
+              "price": 115
             }
-          ],
+          ],          
           "seafood": [
             {
-              "name": "Seafood Platter",
-              "description": "Assortment of fresh seafood including shrimp, calamari, and fish served with lemon wedges and cocktail sauce",
-              "price": 19.99
+              "name": "Prawns",
+              "description": "Fresh prawns (6) SQ (12) SQ fried and served with savory rice OR chips, lemon butter, and garlic butter",
+              "price": " 120  "
             },
             {
-              "name": "Grilled Salmon",
-              "description": "Fresh Atlantic salmon fillet grilled to perfection and served with lemon garlic butter sauce",
-              "price": 16.99
+              "name": "Seafood Platter",
+              "description": "Assortment of fresh seafood including prawns, mussels, calamari, and hake served with savory rice OR chips, lemon butter, and garlic butter",
+              "price": 290
+            },
+            {
+              "name": "Red Thai Seafood Curry",
+              "description": "An exotic taste with prawns, mussels, and calamari served on a bed of white rice",
+              "price": 135
+            },
+            {
+              "name": "Calamari",
+              "description": "Crumbed calamari with chips OR savory rice and lemon OR garlic butter on the side with tartar sauce",
+              "price": 105
+            },
+            {
+              "name": "Hake",
+              "description": "Buttered hake with chips OR savory rice and lemon OR garlic butter on the side with tartar sauce",
+              "price": 85
+            },
+            {
+              "name": "Kingklip (when available)",
+              "description": "Buttered kingklip dressed in a creamy caper sauce with chips OR savory rice and vegetables",
+              "price": 139
+            },
+            {
+              "name": "Sole (when available)",
+              "description": "Fried in lemon butter and dressed in a creamy caper sauce with chips OR savory rice and vegetables",
+              "price": 169
             }
-          ],"pizza": [
+          ],
+          "pizza": [
             {
               "name": "Brazilian Chicken Strips, Pineapple & Creamy Mayo",
               "description": "New",

@@ -8,11 +8,29 @@
  
 }
 
+@keyframes slide-left{
+    0% {transform: translateX(4%);}
+    100% {transform: translateX(0%);}
+  }
+  
+  @keyframes slide-right{
+    0% {transform: translateX(-4%);}
+    100% {transform: translateX(0%);}
+  }
+
 .cat-title{
     font-size: 9rem;
     margin: 0px;
     padding: 0px;
+    opacity: 0;
+    transition: all 3s;
+   
+}
 
+.cat-desc{
+    margin: 0px;
+    margin-bottom: 2rem;
+    
 
 }
 
@@ -34,6 +52,11 @@
    justify-content: right;
    align-self: center;
    margin-left: 8rem;
+    animation: slide-left 1s linear;
+    animation-play-state: paused;
+    opacity: 0;
+    transition: opacity 1s ease-in ;
+
    
 }
 
@@ -41,7 +64,7 @@
     max-height: 100%;
     max-width: 100%; 
     border-radius: 22px;
-
+   
    
 }
 
@@ -58,6 +81,11 @@
  box-shadow: 1px 1px 20px #c1c1c1;
  left :50%;
  overflow-y:auto;
+ animation: slide-right 1s linear;
+ animation-play-state: paused;
+ opacity: 0;
+ transition: opacity 1s ease-in ;
+
 }
 
 #pastas-category, #seafood-category, #milkshakes-category{
@@ -101,7 +129,7 @@
 }
 
 #seafood-category .menu-items, #pastas-category .menu-items,  #milkshakes-category .menu-items{
-    background-color: #252525;
+    background-color: #1f1f1f;
     box-shadow: 1px 1px 20px #1c1c1c;
    
 }
