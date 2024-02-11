@@ -42,7 +42,6 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 1rem;
     padding-bottom: 3rem;
 }
 
@@ -121,9 +120,7 @@
 
 
 .menu{
-   position: absolute;
-    top: 97%; 
-    z-index: 2;
+ 
     background-color: #252525;
     
 }

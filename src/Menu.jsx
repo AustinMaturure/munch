@@ -26,7 +26,7 @@ const categoryDes = {
 
 const Menu = () => {
   return (
-    <div className="menu" id='#menu'>
+    <div className="menu" id='menu'>
       {Object.entries(menuData.menu).map(([category, data]) => {
         const categoryRef = useElementInView(`.cat-title-${category}`);
         const imageRef = useElementInView(`.cat-img-cnt-${category}`);
@@ -38,7 +38,7 @@ const Menu = () => {
             <h2 className={`cat-title cat-title-${category}`} ref={categoryRef}>- {category} -</h2>
             <h3 className={`cat-desc cat-desc-${category}`} ref={descRef}>-{categoryDes[category]}-</h3>
 
-            <div className="cat-menu">
+          <div className="cat-menu">
               <div className={`cat-img-cnt cat-img-cnt-${category}`} ref={imageRef}>
                 <img className='cat-image' src={categoryImages[category]} alt={category} />
               </div>

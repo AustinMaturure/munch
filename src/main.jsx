@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Hero from './Hero'
 import Navbar from './Navbar'
 import Menu from './Menu'
+import About from './About'
 import './css/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -10,5 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar/>
     <Hero />
     <Menu/>
+    <About/>
   </React.StrictMode>,
 )

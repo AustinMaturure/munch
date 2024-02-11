@@ -52,8 +52,8 @@
           "seafood": [
             {
               "name": "Prawns",
-              "description": "Fresh prawns (6) SQ (12) SQ fried and served with savory rice OR chips, lemon butter, and garlic butter",
-              "price": " 120  "
+              "description": "Fresh prawns ( 6 / 12 ) fried and served with savory rice OR chips, lemon butter, and garlic butter",
+              "price": 235
             },
             {
               "name": "Seafood Platter",
@@ -87,14 +87,7 @@
             }
           ],
           "pizza": [
-            {
-              "name": "Brazilian Chicken Strips, Pineapple & Creamy Mayo",
-              "description": "New",
-              "prices": {
-                "small": 50,
-                "large": 110
-              }
-            },
+            
             {
               "name": "Mac & Cheese",
               "description": "Mac & Cheese topped with Your choice of Sauce Classic, Buffalo or BBQ Sauce",
@@ -109,6 +102,13 @@
               "prices": {
                 "small": 65,
                 "large": 130
+              }
+            },{
+              "name": "Brazilian Chicken Strips, Pineapple & Creamy Mayo",
+              "description": "Read the name",
+              "prices": {
+                "small": 50,
+                "large": 110
               }
             },
             {
