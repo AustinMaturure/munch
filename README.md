@@ -4,7 +4,7 @@ Welcome to Munch Restaurant! This is a personal project repository dedicated to 
 
 ## Description
 
-Munch Restaurant is a passion project aimed at exploring various cuisines and culinary creations. Established in 2014, this project aims to experiment with different recipes and share the joy of cooking with others.
+Munch Restaurant is a local restauarant I love to dine at, This is fully function concept website for one of my favourite restaurants
 
 ## Getting Started
 
@@ -32,9 +32,9 @@ Website for local Restaurant, using React, To start your culinary journey with M
 
 ## Features
 
-- Explore various recipes and cuisines
-- Experiment with cooking techniques
-- Share your culinary adventures with others
+- Browse the Menu
+- Interactive Map for Directions
+- See all Services offered
 
 
 ## License
