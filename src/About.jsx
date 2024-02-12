@@ -17,7 +17,7 @@ function About() {
          
          <div className="about-info">
             <article>   <h1 className='about-header'>- Our Story -</h1>
-            <hr className='line' />
+            
                 <p className='about-info-text'> 
 
                 

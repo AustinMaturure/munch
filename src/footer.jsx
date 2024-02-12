@@ -50,89 +50,123 @@ export default function Footer(){
       
       </section> 
       <section className="service-options">
-                <h2>Service options</h2>
+      <div class="service">
+    <h2>Service options</h2>
+    <ul>
+        <li>Outdoor seating</li>
+        <li>Takeaway</li>
+        <li>Dine-in</li>
+    </ul>
+</div>
+
+<div class="service">
+    <h2>Highlights</h2>
+    <ul>
+        <li>Fireplace</li>
+        <li>Great cocktails</li>
+        <li>Sport Viewing</li>
+    </ul>
+</div>
+
+<div class="service">
+    <h2>Amenities</h2>
+    <ul>
+        <li>Free Wi-Fi</li>
+        <li>Bar on site</li>
+        <li>Toilets</li>
+        
+    </ul>
+</div>
+
+<div class="service">
+    <h2>Children</h2>
+    <ul>
+        <li>Good for kids</li>
+        <li>High chairs</li>
+        <li>Kids' menu</li>
+    </ul>
+</div>
+
+<div class="service">
+    <h2>Crowd</h2>
+    <ul>
+        <li>Family friendly</li>
+        <li>Groups</li>
+    </ul>
+</div>
+
+<div class="service">
+    <h2>Planning</h2>
+    <ul>
+        <li>Accepts reservations</li>
+    </ul>
+</div>
+
+<div className="service">
+<h2>Atmosphere</h2>
                 <ul>
-                    <li>Outdoor seating</li>
-                    <li>Takeaway</li>
-                    <li>Dine-in</li>
+                    <li>Casual</li>
+                    <li>Cosy</li>
                 </ul>
-                <h2>Highlights</h2>
-                <ul>
-                    <li>Fireplace</li>
-                    <li>Great cocktails</li>
-                    <li>Sport</li>
-                </ul>
-                <h2>Amenities</h2>
-                <ul>
-                    <li>Bar on site</li>
-                    <li>Toilets</li>
-                    <li>Free Wi-Fi</li>
-                </ul>
-                <h2>Children</h2>
-                <ul>
-                    <li>Good for kids</li>
-                    <li>High chairs</li>
-                    <li>Kids' menu</li>
-                </ul>
-                
-               
-               
-                
-                <h2>Crowd</h2>
-                <ul>
-                    <li>Family friendly</li>
-                    <li>Groups</li>
-                </ul>
-                
-                <h2>Planning</h2>
-                <ul>
-                    <li>Accepts reservations</li>
-                </ul>
-             
-             
-                <h2>Parking</h2>
-                <ul>
-                    <li>Free parking lot</li>
-                </ul>
-                <h2>Dining options</h2>
-                <ul>
-                    <li>Breakfast</li>
-                    <li>Brunch</li>
-                    <li>Lunch</li>
-                    <li>Dinner</li>
-                    <li>Dessert</li>
-                </ul>
-               
-                <h2>Payments</h2>
-                <ul>
-                    <li>Credit cards</li>
-                    <li>Debit cards</li>
-                    <li>NFC mobile payments</li>
-                   
-                </ul>
-                <h2>Accessibility</h2>
-                <ul>
-                    <li>Wheelchair-accessible car park</li>
-                    <li>Wheelchair-accessible entrance</li>
-                    <li>Wheelchair-accessible seating</li>
-                    <li>Wheelchair-accessible toilet</li>
-                </ul>
-                <h2>Offerings</h2>
-                <ul>
-                    <li>Alcohol</li>
-                    <li>Coffee</li>
-                    <li>Late-night food</li>
-                    <li>Small plates</li>
-                    <li>Spirits</li>
-                    <li>Vegan & Vegetarian options</li>
-                   
-                </ul>
+</div>
+
+<div class="service">
+    <h2>Parking</h2>
+    <ul>
+        <li>Free parking lot</li>
+    </ul>
+</div>
+
+<div class="service">
+    <h2>Dining options</h2>
+    <ul>
+        <li>Breakfast</li>
+        <li>Brunch</li>
+        <li>Lunch</li>
+        <li>Dinner</li>
+        <li>Dessert</li>
+    </ul>
+</div>
+
+<div class="service">
+    <h2>Payments</h2>
+    <ul>
+        <li>Credit cards</li>
+        <li>Debit cards</li>
+        <li>NFC mobile payments</li>
+    </ul>
+</div>
+
+<div class="service">
+    <h2>Accessibility</h2>
+    <ul>
+        <li>Wheelchair-accessible car park</li>
+        <li>Wheelchair-accessible entrance</li>
+        <li>Wheelchair-accessible seating</li>
+        <li>Wheelchair-accessible toilet</li>
+    </ul>
+</div>
+
+<div class="service">
+    <h2>Offerings</h2>
+    <ul>
+        <li>Alcohol</li>
+        <li>Coffee</li>
+        <li>Late-night food</li>
+        <li>Small plates</li>
+        <li>Spirits</li>
+        <li>Vegan & Vegetarian options</li>
+    </ul>
+</div>
+
             </section>
       
        <div className="legal">
   <p className="copy-right">&copy; {new Date().getFullYear()} Munch Piet Retief. All rights reserved.</p>
   <p className="author">Designed and developed by <a className="austin-portfolio" href="https://austinmaturure.github.io/CV/" target="_blank" rel="noopener noreferrer">⚡</a></p>
-
+<div className="logo">
+  <h1 style={{fontFamily:"paquito"}}>MUNCH.</h1>
+</div>
 </div></>
     )
 }
