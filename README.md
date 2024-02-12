@@ -24,11 +24,11 @@ Website for local Restaurant, using React, To start your culinary journey with M
 
 4. Start the development server:
 
-  ``` npm run dev ```
+   ``` npm run dev ```
 
 ## Screenshots
 
-![Culinary Creations](/assets/munch.jpg)
+![Culinary Creations](src/assets/munch.jpg)
 
 ## Features
 
