@@ -23,7 +23,7 @@ function About() {
                 
 
 Welcome to <span style={{fontFamily:
-'paquito'}}>Munch</span>, Piet Retief's nostalgic diner since 2014.
+'paquito'}}>Munch</span>, Piet Retief's very own rustic diner since 2014.
 Here, we blend cherished memories and classic flavors in every dish.
 
 Inspired by traditional diners, we've crafted a cozy space for friends and families to enjoy hearty meals.

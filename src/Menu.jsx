@@ -53,7 +53,7 @@ const Menu = () => {
                         {item.prices && item.prices.large && <p className='item-price'>Large: R{parseFloat(item.prices.large).toFixed(2)}</p>}
                       </div>
                     ) : (
-                      <p className='item-price'>Price: R{parseFloat(item.price).toFixed(2)}</p>
+                      <p className='item-price'> R {parseFloat(item.price).toFixed(2)}</p>
                     )}
                     <hr className='line' />
                   </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import './css/footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocation, faMessage, faPhone, faTextSlash } from "@fortawesome/free-solid-svg-icons";
+import { faLink, faLinkSlash, faLocation, faPhone, faStar, faStarHalf} from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Footer(){
     return (
       <>
-        <section className='footer'>
+        <section className='footer' id="footer">
        
           
         <div className="foot-contact">
@@ -15,24 +15,40 @@ export default function Footer(){
         <h3 className='foot-call-contact'> <FontAwesomeIcon icon={faPhone} className="clock-icon"/>   017 826 0016</h3>
         <h3>
    
-        
+
         <FontAwesomeIcon icon={faLocation} className="clock-icon"/>   1 B Church Street Piet Retief 2380</h3>
 <div className='opening-times'>
   <div>
-    <h3>MON - FRI</h3>
-    <h4>08:00 - 17:00</h4>
+    <h3>MON - SAT</h3>
+    <h4>10:00 - 21:00</h4>
   </div>
-  <div ><h3>SAT</h3>
-    <h4>09:00 - 11:00</h4></div>
     <div ><h3>SUN</h3>
-    <h4>CLOSED</h4></div>
+    <h4>11:00 - 14:00</h4></div>
 </div>
   
         </div>
         <div className='logo-ctn' ><h1 className='logo'>
           Munch</h1>
-          <p className='ocu-optometrist'>restaurant</p><p className='ocu-optometrist'>piet retief</p></div>
-        
+          
+          <h3 >
+    <FontAwesomeIcon icon={faStar} />
+    <FontAwesomeIcon icon={faStar} />
+    <FontAwesomeIcon icon={faStar} />
+    <FontAwesomeIcon icon={faStar} />
+    <FontAwesomeIcon icon={faStarHalf} />
+    <a style={{ textDecoration: 'underline' }} href="https://www.tripadvisor.co.za/Restaurant_Review-g1207688-d7383303-Reviews-Munch-Piet_Retief_Mpumalanga.html" target="_blank" rel="noopener noreferrer">
+        4.5/5
+    </a>
+</h3>
+<p> Ranked 
+    <a style={{ textDecoration: 'underline' }} href="https://restaurantguru.com/Munch-Restaurant-Piet-Retief" target="_blank" rel="noopener noreferrer">
+        #1
+    </a>
+     restaurant in Piet Retief by restaurant guru
+</p>
+
+          </div>
+          
         <div className="map">
         
   <iframe
@@ -164,8 +180,9 @@ export default function Footer(){
        <div className="legal">
   <p className="copy-right">&copy; {new Date().getFullYear()} Munch Piet Retief. All rights reserved.</p>
   <p className="author">Designed and developed by <a className="austin-portfolio" href="https://austinmaturure.github.io/CV/" target="_blank" rel="noopener noreferrer">⚡</a></p>
+
 <div className="logo">
-  <h1 style={{fontFamily:"paquito"}}>MUNCH.</h1>
+  <h1 style={{fontFamily:"paquito", background:"#1f1f1f"}}>MUNCH.</h1>
 </div>
 </div></>
     )

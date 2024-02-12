@@ -47,6 +47,12 @@
   max-height: 50%;
   font-family: 'rawon';
   font-weight: 900;
+  font-size: 1.3rem;
+ 
   
+}
+
+.btn-menu-link{
+   color: #1f1f1f;
 }
 
