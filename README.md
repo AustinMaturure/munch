@@ -28,7 +28,7 @@ Website for local Restaurant, using React, To start your culinary journey with M
 
 ## Screenshots
 
-![Culinary Creations](src/assets/munch.jpeg)
+![Culinary Creations](src/assets/Munch.jpeg)
 
 ## Features
 
