@@ -1,0 +1,110 @@
+
+.footer{
+    min-height: 16rem;
+    background-color: #f1f1f1;
+    position: relative;
+    font-family: 'paquito', sans-serif;
+    z-index: 3;
+    display: grid;
+    color: #584D3D;
+    overflow-x: hidden;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+    box-shadow: 1px 1px 10px #f1f1f1;
+    
+  }
+  
+  .foot-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+  }
+  
+  .foot-contact h3{
+    margin: 0px;
+  }
+  .logo{
+    font-weight: 900;
+    margin: 0px;
+    font-size: 4rem;
+    color: #584D3D;
+  }
+  
+  .ocu-optometrist{
+    margin: 0px;
+  }
+  
+  .opening-times h4{
+    margin: 0px;
+    color: #f1f1f1b0;
+    
+  }
+  .opening-times{
+    display: flex;
+    gap: 12px;
+    color: #f1f1f1;
+    background-color: #584D3D;
+  
+    padding: 12px;
+    border-radius: 12px;
+  }
+  
+.service-options{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+
+    color: #f1f1f1;
+    background-color: #1f1f1f;
+    padding: 3rem;
+}
+
+.service-options h2{
+    color: #f1f1f1;
+    font-family: 'paquito';
+    margin: 0px;
+}
+
+.service-options ul{
+    font-family: 'rowan';
+    text-align: left;
+    margin: 0px;
+    margin-top: 6px;
+    padding: 0px;
+}
+
+.service-options li{
+    color: #f1f1f1a4;
+}
+
+
+  .legal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+    padding: 1rem;
+    width: 100svw;
+    font-size: 13px;
+    font-family: 'Satoshi';
+    background-color:#1f1f1f;
+    color: #f1f1f1;
+   padding-left: 3rem;
+    position: relative;
+  
+  }
+  
+  .copy-right, .author{
+    margin: 0;
+  }
+
+  .austin-portfolio{
+    text-decoration: underline #f1f1f1;
+  }

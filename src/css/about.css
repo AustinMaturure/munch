@@ -1,29 +1,45 @@
 .About{
     min-height: 100svh;
-    position: relative;  font-family: 'paquito';
-    background-color:#f1f1f1;
+    font-family: 'paquito';
+    background-color:#1f1f1f;
+  align-items: center;
+  display: flex;
 }.about-text{
   
-    color: #1f1f11;
+    color: #1f1f1f;
+    
     display: flex;
     height: 30rem;
     width: 100svw;
     padding: 1rem;
+    gap: 20px;
+   
+    align-items: center;
+    justify-content: center;
+  
 }
 
 .about-header{
     font-family: 'paquito';
+    font-size:6rem;
+    color: #1f1f1f;
 }
 .about-info{
     font-family: 'rowan';
     flex: 1;
+    border: 1px solid #1f1f1f;
+    box-shadow: 1px 1px 10px #1f1f1f;
+    background-color: #f1f1f1;
+    color: #1f1f1fe1;
+    border-radius: 20px;
+    padding: 1rem;
 }
 .about-img-cnt{
     height: 100%;
     width: 100%;
    justify-content: right;
    align-self: center;
-   margin-left: 8rem;
+
    flex: 1;
 
    
@@ -34,6 +50,6 @@
     max-width: 100%; 
     border-radius: 22px;
       object-fit: cover;
-
+      box-shadow: -2px 2px #f1f1f1;
    
 }
