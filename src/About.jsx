@@ -1,19 +1,23 @@
 
 import './css/about.css'
 import swapImage from "./assets/hands.jpg"
+import frntImage from "./assets/front-of-restaurant.jpg"
+import extImage from "./assets/munch-exterior.jpg"
+import intImage from "./assets/munch-interior.jpg"
 
 function About() {
   
 
   return (
     <>
-     <section className="About" id="about">
+     <section className="About" id="about" >
      
       <div className="about-text">
       
          
          <div className="about-info">
-            <article>   <h1 className='about-header'>Our Story</h1>
+            <article>   <h1 className='about-header'>- Our Story -</h1>
+            <hr className='line' />
                 <p className='about-info-text'> 
 
                 
@@ -32,9 +36,16 @@ Thank you for being a part of our journey. Here's to many more delicious memorie
                 </p>
             </article>
          </div>
-         <div className={"about-img-cnt"} >
-                <img className='about-img' src={swapImage} alt="burger and chips in piet retief" />
+         <div className='munch-images'> <div className={"about-img-cnt"} >
+                <img className='about-img' src={frntImage} alt="burger and chips in piet retief" />
               </div>
+              <div className={"about-img-cnt"} >
+                <img className='about-img' src={extImage} alt="burger and chips in piet retief" />
+              </div>
+              <div className={"about-img-cnt"} >
+                <img className='about-img' src={intImage} alt="burger and chips in piet retief" />
+              </div></div>
+        
          
       </div>
    

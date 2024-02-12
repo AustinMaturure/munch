@@ -41,7 +41,7 @@ export default function Footer(){
     width="400"
     height="200"
     className="map-frame"
-    style={{ border: '2px solid #1f1f1f', borderRadius: "22px" }}
+    style={{ border: '2px solid #584D3D', borderRadius: "22px" }}
     allowFullScreen=""
     loading="async"  
     referrerPolicy="no-referrer-when-downgrade"
@@ -66,7 +66,6 @@ export default function Footer(){
                 <ul>
                     <li>Bar on site</li>
                     <li>Toilets</li>
-                    <li>Wi-Fi</li>
                     <li>Free Wi-Fi</li>
                 </ul>
                 <h2>Children</h2>
