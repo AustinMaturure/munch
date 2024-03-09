@@ -115,9 +115,10 @@
       height: 0px;
       top: 100%;
       left: 0;
-      width: 100%;
+      width: 100svw;
       transition: all 6s;
-      padding: 10px 20px;
+      box-sizing: border-box;
+ 
             
     }
   
@@ -129,6 +130,10 @@
       height: auto;
       font-size: 1.5rem;
       transition: all 6s;
+      border-bottom-left-radius: 22px;
+      border-bottom-right-radius: 22px;
+      padding: 10px 0px;
+      padding-left: 1.5rem;
       
 
       
