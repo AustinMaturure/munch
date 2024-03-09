@@ -22,10 +22,20 @@
   padding-left: 2rem;
   flex-direction: column;
 }
-
+@keyframes pulse {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: 0 0 10px orange;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
 .logo-header{
- 
- 
+ animation-delay: 2s;
+  animation: pulse 2s ease-in-out infinite;
   margin: 0px;
   
   
@@ -65,6 +75,8 @@
 .btn-menu-link:hover {
  color: #f1f1f1;
 }
+
+
 @media only screen and (max-width: 726px){
   .hero-text{
     gap:20px;

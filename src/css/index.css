@@ -18,6 +18,11 @@ ul, li {
   list-style: none;
 }
 
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 p, h1, h2, h3{
   margin: 8px;
 }
@@ -64,10 +69,7 @@ button {
 button:hover {
   border-color: #f1f1f1;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
