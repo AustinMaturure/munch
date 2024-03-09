@@ -1,6 +1,6 @@
 
 import './css/Hero.css'
-import burgerBackground from './assets/burg.png'
+import burgerBackground from './assets/burg.webp'
 
 function Hero() {
   

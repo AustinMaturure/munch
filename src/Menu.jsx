@@ -1,11 +1,11 @@
 import React from 'react';
 import menuData from './menu.json'; // Assuming menu.json is in the same directory as this component
-import pastaImage from './assets/pasta.jpg';
+import pastaImage from './assets/pasta.webp';
 import useElementInView from './ElementInView';
-import burgerImage from './assets/burger.jpg';
-import seafoodImage from './assets/seafood.jpg';
-import drinksImage from './assets/milkshakes.jpg';
-import pizzaImage from './assets/pizza.jpg'
+import burgerImage from './assets/burger.webp';
+import seafoodImage from './assets/seafood.webp';
+import drinksImage from './assets/milkshakes.webp';
+import pizzaImage from './assets/pizza.webp'
 import './css/menu.css'
 
 const categoryImages = {

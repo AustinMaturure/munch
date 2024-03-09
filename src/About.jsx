@@ -1,9 +1,9 @@
 
 import './css/about.css'
-import swapImage from "./assets/hands.jpg"
-import frntImage from "./assets/front-of-restaurant.jpg"
-import extImage from "./assets/munch-exterior.jpg"
-import intImage from "./assets/munch-interior.jpg"
+
+import frntImage from "./assets/front-of-restaurant.webp"
+import extImage from "./assets/munch-exterior.webp"
+import intImage from "./assets/munch-interior.webp"
 import useElementInView from './ElementInView';
 
 function About() {
