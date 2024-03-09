@@ -66,7 +66,7 @@ export default function Footer(){
       
       </section> 
       <section className="service-options">
-      <div class="service">
+      <div className="service">
     <h2>Service options</h2>
     <ul>
         <li>Outdoor seating</li>

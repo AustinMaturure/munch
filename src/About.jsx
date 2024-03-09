@@ -4,15 +4,18 @@ import swapImage from "./assets/hands.jpg"
 import frntImage from "./assets/front-of-restaurant.jpg"
 import extImage from "./assets/munch-exterior.jpg"
 import intImage from "./assets/munch-interior.jpg"
+import useElementInView from './ElementInView';
 
 function About() {
   
-
+const abtRef = useElementInView('.about-text');
   return (
     <>
+    
+    
      <section className="About" id="about" >
      
-      <div className="about-text">
+      <div className="about-text"ref={abtRef}>
       
          
          <div className="about-info">

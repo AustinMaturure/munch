@@ -45,6 +45,11 @@ h1 {
   line-height: 1.1;
 }
 
+.body{
+  background-color: #1a1a1a;
+  max-width: 100svw;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -57,7 +62,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #ffaa64;
+  border-color: #f1f1f1;
 }
 button:focus,
 button:focus-visible {
@@ -67,7 +72,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #242424;
   }
   a:hover {
     color: #747bff;
