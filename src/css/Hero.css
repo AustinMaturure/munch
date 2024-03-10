@@ -1,14 +1,16 @@
 #root {
-  max-width: 1280px;
+  max-width: 100svw;
   margin: 0px;
 
   text-align: center;
+  overflow-y: hidden;
 }
 
 .hero{
   height: 100svh;
   max-width: 100svw;
   background-size: cover;
+  overflow-y: hidden;
 
 }
 
@@ -20,6 +22,7 @@
   font-family: 'Paquito', serif;
   color: #f1f1f1;
   padding-left: 2rem;
+  overflow-y: hidden;
   flex-direction: column;
 }
 @keyframes pulse {
@@ -27,15 +30,17 @@
     text-shadow: none;
   }
   50% {
-    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 15px orange;
   }
+  
   100% {
     text-shadow: none;
   }
 }
+
 .logo-header{
  animation-delay: 2s;
-  animation: pulse 2s ease-in-out infinite;
+  animation: pulse 3s ease-in-out infinite;
   margin: 0px;
   
   
@@ -43,7 +48,7 @@
 }
 
 .logo-header:hover{
-  text-shadow: 5px 5px 10px orange;
+  text-shadow: 8px 8px 10px orange;
 }
 .tag-line{
   display: flex;
@@ -56,9 +61,10 @@
   padding: 6px;
   max-height: 50%;
   font-family: 'rawon';
-  font-weight: 900;
+  font-weight: bold;
   font-size: 1.2rem;
   border: 2px solid #1f1f1f;
+  border-radius: 24px;
   transition: all 1s ease;
   
 }

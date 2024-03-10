@@ -126,7 +126,7 @@
  
     background-color: #252525;
     max-width: 100svw;
-    
+
 }
 
 #seafood-category .menu-items, #pastas-category .menu-items,  #milkshakes-category .menu-items{
@@ -191,6 +191,7 @@
         font-size: 2rem;
         max-height: unset;
         padding: 10px;
+        border-radius: 24px;
     }
     .menu-items{
         position: unset;
@@ -204,7 +205,7 @@
     }
 
     .btn-menu{
-        border-radius: 24px;
+        
         
     }
 
@@ -244,5 +245,10 @@
     }
     #milkshakes-category .cat-title{
         font-size: 3.8rem;
+    }
+
+    .munch-images{
+ 
+      
     }
 }

@@ -13,10 +13,12 @@ function Hero() {
          <div className="tag-line"><h2> Where Every Bite Leaves a Lasting Impression </h2> <button className='btn-menu'><a className="btn-menu-link"href="#menu">View Our Menu</a></button></div>
          
       </div>
+     
    
      
 
      </section>
+     
     </>
   )
 }
