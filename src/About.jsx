@@ -40,13 +40,13 @@ Thank you for being a part of our journey. Here's to many more delicious memorie
             </article>
          </div>
          <div className='munch-images'> <div className={"about-img-cnt"} >
-                <img className='about-img' src={frntImage} alt="burger and chips in piet retief" />
+                <img className='about-img' loading='lazy' src={frntImage} alt="munch restaurant pirt retief interior" />
               </div>
               <div className={"about-img-cnt"} >
-                <img className='about-img' src={extImage} alt="burger and chips in piet retief" />
+                <img className='about-img' loading='lazy' src={extImage} alt="munch restaurant piet retief exterior" />
               </div>
               <div className={"about-img-cnt"} >
-                <img className='about-img' src={intImage} alt="burger and chips in piet retief" />
+                <img className='about-img' loading='lazy' src={intImage} alt="munnch restaurant piet retief interior tables" />
               </div></div>
         
          

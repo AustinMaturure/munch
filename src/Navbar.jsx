@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <button className="navbar-toggle" onClick={toggleMenu}>
         {isOpen ? (
-          <img src={hamburgerclose} alt="Close Menu" />
+          <img loading='lazy' src={hamburgerclose} alt="Close Menu" />
         ) : (
           <img src={hamburgeropen} alt="Open Menu" />
         )}
