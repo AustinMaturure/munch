@@ -110,6 +110,9 @@
   
   .copy-right, .author{
     margin: 0;
+    width: 100%;
+    text-align: left;
+
   }
 
   .austin-portfolio{
@@ -144,6 +147,11 @@
       text-wrap: wrap;
       box-sizing: border-box;
       font-size: 2rem;
+     
+    }
+    .logo-text{
+      margin-left: 0px;
+     
     }
     .legal{
       padding: 1rem;
