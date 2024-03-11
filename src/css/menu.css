@@ -30,7 +30,7 @@
 
 .cat-desc{
     margin: 0px;
-    margin-bottom: 2rem;
+
     
 
 }
@@ -40,22 +40,31 @@
 }
 
 .cat-menu{
-    display: flex;
+    display: grid;
     align-items: center;
-    gap: 10px;
+    grid-template-areas: "overlap";
+    grid-template-rows: 1fr;
+
+place-items: center;
     padding-bottom: 3rem;
+
+   justify-self: center;
+   margin-top: 2%;
 }
 
 .cat-img-cnt{
     height: 100%;
     width: 50%;
-   justify-content: right;
-   align-self: center;
-   margin-left: 8rem;
+    grid-area: overlap;
+    justify-content: right;
+    align-self: center;
+    margin-right: 30%;
+    
+    margin-top: 3%;
     animation: slide-left 1s linear;
     animation-play-state: paused;
     opacity: 0;
-    transition: opacity 1s ease-in ;
+    transition: opacity 1s ease-in;
    
 
    
@@ -79,9 +88,10 @@
  padding: 1rem;
 
  max-width: 34rem;
- position: absolute;
+
  box-shadow: 1px 1px 20px #c1c1c1;
- left :50%;
+grid-area: overlap;
+margin-left: 30%;
  overflow-y:auto;
  animation: slide-right 1s linear;
  animation-play-state: paused;
@@ -188,6 +198,7 @@
         margin-left: 0px;
         grid-area: overlap;
         width: 90svw;
+        margin-right: unset;
         justify-self: center;
     }
     .btn-menu{
@@ -198,19 +209,17 @@
     }
     .menu-items{
         position: unset;
+        margin-left: unset;
     }
 
     .about-text{
         padding: 1rem !important;
     }
     .cat-title{
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 
-    .btn-menu{
-        
-        
-    }
+ 
 
     .btn-menu a{
         font-weight: 900;
@@ -234,6 +243,7 @@
     grid-template-areas: "overlap";
     padding: 0.8rem;
     padding-bottom: 2rem;
+    margin-top: 1%;
     }
     .food-category{
         display: flex;
