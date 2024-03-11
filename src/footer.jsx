@@ -182,7 +182,7 @@ export default function Footer(){
   <p className="author">Designed and developed by <a className="austin-portfolio" href="https://austinmaturure.github.io/CV/" target="_blank" rel="noopener noreferrer">⚡</a></p>
 
 <div className="logo">
-  <h1 style={{fontFamily:"paquito", background:"#1f1f1f"}}>MUNCH.</h1>
+  <h1 className="logo-text"style={{fontFamily:"paquito", background:"#1f1f1f"}}>MUNCH.</h1>
 </div>
 </div></>
     )

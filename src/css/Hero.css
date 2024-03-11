@@ -10,7 +10,7 @@
   height: 100svh;
   max-width: 100svw;
   background-size: cover;
-  overflow-y: hidden;
+  overflow: hidden;
 
 }
 
@@ -22,7 +22,7 @@
   font-family: 'Paquito', serif;
   color: #f1f1f1;
   padding-left: 2rem;
-  overflow-y: hidden;
+  overflow: hidden;
   flex-direction: column;
 }
 @keyframes pulse {

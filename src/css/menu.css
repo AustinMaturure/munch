@@ -181,6 +181,9 @@
     .tag-line{
         flex-direction: column;
     }
+    .logo-text{
+        font-size: 3em;
+    }
     .cat-img-cnt{
         margin-left: 0px;
         grid-area: overlap;
