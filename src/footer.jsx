@@ -179,7 +179,7 @@ export default function Footer(){
       
        <div className="legal">
   <p className="copy-right">&copy; {new Date().getFullYear()} Munch Piet Retief. All rights reserved.</p>
-  <p className="author">Designed and developed by <a className="austin-portfolio" href="https://austinmaturure.github.io/CV/" target="_blank" rel="noopener noreferrer">⚡</a></p>
+  <p className="author">Designed and developed by <a className="austin-portfolio" href="https://austinmaturure.netlify.app" target="_blank" rel="noopener noreferrer">⚡</a></p>
 
 <div className="logo">
   <h1 className="logo-text"style={{fontFamily:"paquito", background:"#1f1f1f"}}>MUNCH.</h1>
